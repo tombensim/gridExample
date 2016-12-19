@@ -1,3 +1,4 @@
+![ScreenShot](http://ww1.prweb.com/prfiles/2014/12/21/12410630/gI_60315_Experitest%20Logo.png)
 ## GridExample
 This project consists of testNG test written for the EriBank application, and designed to show a demo for SeeTest Cloud Grid feature,
 please use this example as a refernce when attempting to use the Grid feature.
@@ -5,7 +6,7 @@ please use this example as a refernce when attempting to use the Grid feature.
 This project was written with [page-object-design-pattern](http://www.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern).
 
 ## Grid Feature
-The idea behind the [Grid](https://docs.experitest.com/display/public/SC/Manage+Test+Requests) is that we are able to exute one testNG suite, which will launch 5 IOS tests and 5 android tests, by reserving a device using the [os query](https://docs.experitest.com/display/public/SA/WaitForDevice), and the grid will automatically assign a device to the test, and run the test, if the license includes less than 10 grid nodes, or the cloud has less than the required devices, then the test will be queued untill a device is available.
+The idea behind the [Grid](https://docs.experitest.com/display/public/SC/Manage+Test+Requests) is that we are able to execute one testNG suite, which will launch 5 tests on 5 iOS devices and 5 android devices, by reserving a device using the [os query](https://docs.experitest.com/display/public/SA/WaitForDevice), and the grid will automatically assign a device to the test, and run the test, if the license includes less than 10 grid nodes, or the cloud has less than the required devices, then the test will be queued untill a device is available.
 
 ## Concept
 The project consists of the following files:  
