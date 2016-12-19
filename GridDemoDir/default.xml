@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><domain fixed="false" fullWindow="true" name="default">
+<obj text="Username" version="1">
+<images enable="false">
+<image file="default\Username.PNG" jump="1" mainColor="-70708" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+<image file="default\Username_1.PNG" jump="1" mainColor="-2d2d2e" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+</images>
+<text color="2147483647" enable="false" filter="false" ignoreCase="false" regexp="false" sensitivity="10" text=""/>
+<native aiIOS="" alIOS="//*[@accessibilityLabel='Username']" class="android.widget.EditText" classBB="" classIOS="UITextFieldLabel" classWP="" contentDescription="" contentWP="" enable="true" enableBB="false" enableIOS="true" enableWP="false" hint="" id="usernameTextField" method="xpath" methodBB="class" methodIOS="xpath" methodWP="class" nameWP="" placeholderIOS="" scriptIOS="" text="" textBB="" textIOS="Username" textWP="" value="//*[@hint='Username']" xpath="//*[@hint='Username']" xpathIOS="//*[@accessibilityLabel='Username']" xpathWP=""/>
+<web enable="false" method="" value=""/>
+</obj>
+<obj text="Password" version="1">
+<images enable="false">
+<image file="default\Password.PNG" jump="1" mainColor="-9090a" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+<image file="default\Password_1.PNG" jump="1" mainColor="-10102" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+</images>
+<text color="2147483647" enable="false" filter="false" ignoreCase="false" regexp="false" sensitivity="10" text=""/>
+<native aiIOS="" alIOS="" class="android.widget.EditText" classBB="" classIOS="//*[@class='_UIFieldEditorContentView']" classWP="" contentDescription="" contentWP="" enable="true" enableBB="false" enableIOS="true" enableWP="false" hint="" id="passwordTextField" method="xpath" methodBB="class" methodIOS="xpath" methodWP="class" nameWP="" placeholderIOS="" scriptIOS="" text="" textBB="" textIOS="" textWP="" value="//*[@hint='Password']" xpath="//*[@hint='Password']" xpathIOS="//*[@accessibilityLabel='Password']" xpathWP=""/>
+<web enable="false" method="" value=""/>
+</obj>
+<obj text="Login" version="1">
+<images enable="false">
+<image file="default\Login.PNG" jump="1" mainColor="-2d2d2e" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+<image file="default\Login_1.PNG" jump="1" mainColor="-e0001" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+</images>
+<text color="2147483647" enable="false" filter="false" ignoreCase="false" regexp="false" sensitivity="10" text=""/>
+<native aiIOS="" alIOS="Login" class="android.widget.Button" classBB="" classIOS="//*[@text='Login']" classWP="" contentDescription="" contentWP="" enable="true" enableBB="false" enableIOS="true" enableWP="false" hint="" id="loginButton" method="xpath" methodBB="class" methodIOS="xpath" methodWP="class" nameWP="" placeholderIOS="" scriptIOS="" text="Login" textBB="" textIOS="Login" textWP="" value="//*[@text='Login']" xpath="//*[@text='Login']" xpathIOS="//*[@text='Login']" xpathWP=""/>
+<web enable="false" method="" value=""/>
+</obj>
+<obj text="MakePayment" version="1">
+<images enable="false">
+<image file="default\MakePayment.PNG" jump="1" mainColor="-2d2d2e" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+<image file="default\MakePayment_1.PNG" jump="1" mainColor="-b0001" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+</images>
+<text color="2147483647" enable="false" filter="false" ignoreCase="false" regexp="false" sensitivity="10" text=""/>
+<native aiIOS="" alIOS="Make Payment" class="android.widget.Button" classBB="" classIOS="//*[@text='Make Payment']" classWP="" contentDescription="" contentWP="" enable="true" enableBB="false" enableIOS="true" enableWP="false" hint="" id="makePaymentButton" method="xpath" methodBB="class" methodIOS="xpath" methodWP="class" nameWP="" placeholderIOS="" scriptIOS="" text="Make Payment" textBB="" textIOS="Make Payment" textWP="" value="//*[@text='Make Payment']" xpath="//*[@text='Make Payment']" xpathIOS="//*[@text='Make Payment']" xpathWP=""/>
+<web enable="false" method="" value=""/>
+</obj>
+<obj text="MortgageRequest" version="1">
+<images enable="false">
+<image file="default\MortgageRequest.PNG" jump="1" mainColor="-2d2d2e" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+<image file="default\MortgageRequest_1.PNG" jump="1" mainColor="-80001" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+</images>
+<text color="2147483647" enable="false" filter="false" ignoreCase="false" regexp="false" sensitivity="10" text=""/>
+<native aiIOS="" alIOS="Mortgage Request" class="android.widget.Button" classBB="" classIOS="//*[@text='Mortgage Request']" classWP="" contentDescription="" contentWP="" enable="true" enableBB="false" enableIOS="true" enableWP="false" hint="" id="mortageRequestButton" method="xpath" methodBB="class" methodIOS="xpath" methodWP="class" nameWP="" placeholderIOS="" scriptIOS="" text="Mortgage Request" textBB="" textIOS="Mortgage Request" textWP="" value="//*[@text='Mortgage Request']" xpath="//*[@text='Mortgage Request']" xpathIOS="//*[@text='Mortgage Request']" xpathWP=""/>
+<web enable="false" method="" value=""/>
+</obj>
+<obj text="ExpenseReport" version="1">
+<images enable="false">
+<image file="default\ExpenseReport.PNG" jump="1" mainColor="-2d2d2e" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+<image file="default\ExpenseReport_1.PNG" jump="1" mainColor="-80001" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+</images>
+<text color="2147483647" enable="false" filter="false" ignoreCase="false" regexp="false" sensitivity="10" text=""/>
+<native aiIOS="" alIOS="Expense Report" class="android.widget.Button" classBB="" classIOS="//*[@text='Expense Report']" classWP="" contentDescription="" contentWP="" enable="true" enableBB="false" enableIOS="true" enableWP="false" hint="" id="expenseReportButton" method="xpath" methodBB="class" methodIOS="xpath" methodWP="class" nameWP="" placeholderIOS="" scriptIOS="" text="Expense Report" textBB="" textIOS="Expense Report" textWP="" value="//*[@text='Expense Report']" xpath="//*[@text='Expense Report']" xpathIOS="//*[@text='Expense Report']" xpathWP=""/>
+<web enable="false" method="" value=""/>
+</obj>
+<obj text="Logout" version="1">
+<images enable="false">
+<image file="default\Logout.PNG" jump="1" mainColor="-2d2d2e" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+<image file="default\Logout_1.PNG" jump="1" mainColor="-b0001" max="0" min="0" scanner="Advance Similarity" similarity="97"/>
+</images>
+<text color="2147483647" enable="false" filter="false" ignoreCase="false" regexp="false" sensitivity="10" text=""/>
+<native aiIOS="" alIOS="Logout" class="android.widget.Button" classBB="" classIOS="//*[@text='Logout']" classWP="" contentDescription="" contentWP="" enable="true" enableBB="false" enableIOS="true" enableWP="false" hint="" id="logoutButton" method="xpath" methodBB="class" methodIOS="xpath" methodWP="class" nameWP="" placeholderIOS="" scriptIOS="" text="Logout" textBB="" textIOS="Logout" textWP="" value="//*[@text='Logout']" xpath="//*[@text='Logout']" xpathIOS="//*[@text='Logout']" xpathWP=""/>
+<web enable="false" method="" value=""/>
+</obj>
+</domain>

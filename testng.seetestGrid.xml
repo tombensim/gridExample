@@ -1,0 +1,125 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GridDemo" parallel="tests" thread-count="10" >
+        <test name="IOS1">
+        <parameter name="os" value="ios"/>
+        <parameter name="TestNGName" value="IOS1"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                    <include name="os" />
+                    <include name="TestNGName" />
+                </methods>
+             </class>
+        </classes>
+    </test>
+        <test name="IOS2">
+        <parameter name="os" value="ios"/>
+        <parameter name="TestNGName" value="IOS2"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                    <include name="TestNGName" />
+                    <include name="os" />
+                </methods>
+             </class>
+        </classes>
+    </test>
+        <test name="IOS3">
+        <parameter name="os" value="ios"/>
+        <parameter name="TestNGName" value="IOS3"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                	<include name="TestNGName" />
+                    <include name="os" />
+                </methods>
+             </class>
+        </classes>
+    </test>
+        <test name="IOS4">
+        <parameter name="os" value="ios"/>
+        <parameter name="TestNGName" value="IOS4"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                	<include name="TestNGName" />
+                    <include name="os" />
+                </methods>
+             </class>
+        </classes>
+    </test>
+        <test name="IOS5">
+        <parameter name="os" value="ios"/>
+        <parameter name="TestNGName" value="IOS5"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                	<include name="TestNGName" />
+                    <include name="os" />
+                </methods>
+             </class>
+        </classes>
+    </test>
+        <test name="Android1" >
+        <parameter name="os" value="android"/>
+        <parameter name="TestNGName" value="android1"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                    <include name="os" />
+                    <include name="TestNGName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+        <test name="Android2">
+        <parameter name="TestNGName" value="android2"/>
+        <parameter name="os" value="android"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                    <include name="os" />
+                    <include name="TestNGName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+        <test name="Android3">
+        <parameter name="TestNGName" value="android3"/>
+        <parameter name="os" value="android"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                    <include name="os" />
+                    <include name="TestNGName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+        <test name="Android4">
+        <parameter name="TestNGName" value="android4"/>
+        <parameter name="os" value="android"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                    <include name="os" />
+                    <include name="TestNGName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+        <test name="Android5">
+        <parameter name="TestNGName" value="android5"/>
+        <parameter name="os" value="android"/>
+        <classes>
+            <class name="tests.VerifyPagesTest">
+                <methods>
+                    <include name="os" />
+                    <include name="TestNGName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>
+

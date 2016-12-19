@@ -1,0 +1,11 @@
+#Sun Dec 18 17:11:33 IST 2016
+mobile=false
+platform=GENERIC
+default.ios.user=root
+lastZone=default
+default.ios.password=alpine
+translator=Java (junit 4)
+version=2
+app.name=ios_app\:Iphone 6+
+text_substitutions=
+description=
