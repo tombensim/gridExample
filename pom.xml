@@ -28,10 +28,11 @@
         </repository>
     </repositories>
   <dependencies>
-   <dependency>
-    <groupId>com.experitest</groupId>
-    <artifactId>SeeTestClient</artifactId>
-    <version>10.2.46</version>
-    </dependency>
+      <dependency>
+          <groupId>org.testng</groupId>
+          <artifactId>testng</artifactId>
+          <version>6.10</version>
+      </dependency>
+
   </dependencies>
 </project>
