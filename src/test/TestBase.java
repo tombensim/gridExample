@@ -23,6 +23,7 @@ import java.net.URL;
  */
 public class TestBase {
 
+    private final String projectBaseDirectory;
     private String testName;
     private String host;
     private int port;
@@ -41,6 +42,7 @@ public class TestBase {
         reportDirectory = "reports";
         reportFormat = "xml";
         driver = null;
+        projectBaseDirectory = "C:\\Users\\tom.ben-simhon\\workspace\\project4";
     }
     public TestBase(){
         this(null);
@@ -49,21 +51,27 @@ public class TestBase {
     @BeforeTest
     public void setUp() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        String projectBaseDirectory = "C:\\Users\\tom.ben-simhon\\workspace\\project4";
-        capabilities.setCapability(SeeTestCapabilityType.PROJECT_BASE_DIRECTORY, projectBaseDirectory);
+        // Appium Capabilities
+        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.experitest.ExperiBank");
+        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".LoginActivity");
+
+        /* Appium Studio Additional
+                 Here we place all of the additonal capabilites that will be used to automatically generate reports, and dynamicall select Device
+          */
+        //Reporting Configurations
         capabilities.setCapability(SeeTestCapabilityType.REPORT_DIRECTORY, reportDirectory);
         capabilities.setCapability(SeeTestCapabilityType.REPORT_FORMAT, reportFormat);
         capabilities.setCapability(SeeTestCapabilityType.TEST_NAME, testName);
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.experitest.ExperiBank");
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".LoginActivity");
+
+        //Dynamic Device Query capabilities
         capabilities.setCapability(SeeTestCapabilityType.DEVICE_QUERY, "@name='LGE Nexus 5'");
         capabilities.setCapability(SeeTestCapabilityType.INSTRUMENT_APP, false);
         capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
 
+//        capabilities.setCapability(SeeTestCapabilityType.PROJECT_BASE_DIRECTORY, projectBaseDirectory);
         driver = new SeeTestAndroidDriver<SeeTestAndroidElement>(new URL("http://" + host + ":" + port), capabilities);
 
     }
-
 
     public void setTestName(String testName) {
         this.testName = testName;

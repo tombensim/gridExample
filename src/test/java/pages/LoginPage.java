@@ -3,7 +3,7 @@ package pages;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import models.Creds;
+
 
 import java.util.NoSuchElementException;
 
@@ -11,12 +11,12 @@ import java.util.NoSuchElementException;
 public class LoginPage extends BasePage{
 
 	//Reference Objects
-	@AndroidFindBy(xpath = "//*[@id='usernameTextField']")
-	private MobileElement usernameField;
-	@AndroidFindBy(xpath = "//*[@id='passwordTextField']")
-    private MobileElement passwordField;
-	@AndroidFindBy(xpath = "//*[@text='Login']")
-    private MobileElement loginButton;
+    @AndroidFindBy(xpath = "//*[@resource-id='usernameTextField']")
+    protected MobileElement usernameField;
+    @AndroidFindBy(xpath = "//*[@resource-id='passwordTextField']")
+    protected MobileElement passwordField;
+    @AndroidFindBy(xpath = "//*[@text='Login']")
+    protected MobileElement loginButton;
     
     public LoginPage(AppiumDriver driver) {
 		super(driver);
